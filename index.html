@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conexão Sustentável</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Conexão Sustentável</h1>
+    <p>Explore como a tecnologia pode transformar o campo com responsabilidade ambiental.</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <img src="https://images.unsplash.com/photo-1598514982873-4f564bd3d5c7" alt="Campo Sustentável">
+      <p>Este projeto visa educar jovens sobre práticas sustentáveis e tecnologias que auxiliam no desenvolvimento rural de forma consciente.</p>
+    </section>
+
+    <section class="dicas">
+      <h2>Dicas Sustentáveis</h2>
+      <ul id="dica-lista"></ul>
+    </section>
+
+    <section class="quiz">
+      <h2>Quiz: O que você sabe sobre sustentabilidade no campo?</h2>
+      <div id="pergunta-container"></div>
+      <div class="botoes">
+        <button onclick="responder(true)">Sim</button>
+        <button onclick="responder(false)">Não</button>
+      </div>
+      <p id="resultado"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Projeto Agrinho - Desenvolvido por Estudantes do Ensino Médio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
